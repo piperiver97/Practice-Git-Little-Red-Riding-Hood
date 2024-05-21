@@ -1,9 +1,52 @@
-h1{
+body{
+    background-image: url("imagen/bosque.jpg");
+  background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 80px;
+    color: rgb(146, 32, 32);
+}
+h2, h3, h4, h5, h6 {
+    display: flex;
+    justify-content:center ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    color: brown;
+}
+h7 {
 
 }
-#iMagen{
-    width: 100px;
+#Img1{
+    width: 250px;
+    margin-left: 40%;
 }
-#iMagen2{
-    width: 200px;
+
+#Img2 {
+    width: 20%;
+    margin-left: 40%;
+
+}
+#Img3{
+    width: 30%;
+    margin-left: 40%;
+}
+#Img4{
+    width: 30%;
+    margin-left: 40%;
+}
+#Img5{
+    width: 30%;
+    margin-left: 40%;
+}
+p {
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: rgb(12, 12, 12);
+    justify-content: center;
 }
